@@ -1,3 +1,5 @@
-marks = [78, 85, 90]
-print(marks[0])     # first element
-print(marks[-1])    # last element
+l = [1, 2, 3]
+l.append(4)
+l.insert(1, 100)
+l.extend([5, 6])
+print(l)

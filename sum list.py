@@ -1,0 +1,11 @@
+num = [1,2,3,4,5]
+print(num)
+num.append(6)
+print(num)
+num.append(8)
+print(num)
+num.sort()
+print(num)
+num.reverse()
+print(num)
+print("sum",sum(num))
